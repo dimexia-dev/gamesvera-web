@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Box, Text, Group, Stack, Divider, UnstyledButton, Center, Flex } from "@mantine/core";
 import {
-  IconFingerprint,
   IconBrandQq,
   IconBrandGoogle,
   IconLogin,
   IconUserKey,
+  IconBrandApple,
 } from "@tabler/icons-react";
 
 // 文案及其对应的主题色
@@ -130,16 +130,6 @@ export function IntroPage() {
               className="hover-bg"
             >
               <Center>
-                <IconFingerprint size={24} color="#9EA3B0" stroke={1.5} />
-              </Center>
-            </UnstyledButton>
-            <UnstyledButton
-              bg="#313440"
-              py="sm"
-              style={{ borderRadius: "16px", transition: "background 0.2s" }}
-              className="hover-bg"
-            >
-              <Center>
                 <IconBrandQq size={24} color="#fff" stroke={1.5} />
               </Center>
             </UnstyledButton>
@@ -151,6 +141,16 @@ export function IntroPage() {
             >
               <Center>
                 <IconBrandGoogle size={24} color="#4285F4" stroke={1.5} />
+              </Center>
+            </UnstyledButton>
+            <UnstyledButton
+              bg="#313440"
+              py="sm"
+              style={{ borderRadius: "16px", transition: "background 0.2s" }}
+              className="hover-bg"
+            >
+              <Center>
+                <IconBrandApple size={24} color="#9EA3B0" stroke={1.5} />
               </Center>
             </UnstyledButton>
           </Group>
